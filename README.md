@@ -22,7 +22,7 @@ curl -i http://localhost:8080/v1/withdrawals \
 
 Пример чтения:
 
-curl -i http://localhost:8080/v1/withdrawals/<id> \
+curl -i http://localhost:8080/v1/withdrawals/id \
   -H 'Authorization: Bearer test-token'
 
 Или в Postman, я делал в нём
